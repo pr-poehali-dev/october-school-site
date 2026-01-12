@@ -136,8 +136,8 @@ const Index = () => {
                 <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                   <Icon name="Users" className="text-primary" size={32} />
                 </div>
-                <CardTitle>850+ учеников</CardTitle>
-                <CardDescription>Обучаются в 32 классах с 1 по 11 класс</CardDescription>
+                <CardTitle>56 учеников</CardTitle>
+                <CardDescription>Обучаются в 5 классах с 1 по 11 класс</CardDescription>
               </CardHeader>
             </Card>
 
