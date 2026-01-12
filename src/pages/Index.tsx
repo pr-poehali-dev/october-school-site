@@ -146,8 +146,8 @@ const Index = () => {
                 <div className="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mb-4">
                   <Icon name="Award" className="text-secondary" size={32} />
                 </div>
-                <CardTitle>65 педагогов</CardTitle>
-                <CardDescription>Высококвалифицированные специалисты с опытом</CardDescription>
+                <CardTitle>Онлайн обучение</CardTitle>
+                <CardDescription>Дистанционный формат образования</CardDescription>
               </CardHeader>
             </Card>
 
@@ -282,35 +282,21 @@ const Index = () => {
       <section id="teachers" className="py-16 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-foreground">Наши учителя</h2>
-            <p className="text-muted-foreground">Опытные педагоги с высшим образованием</p>
+            <h2 className="text-4xl font-bold mb-4 text-foreground">Онлайн обучение</h2>
+            <p className="text-muted-foreground">Дистанционный формат без постоянных преподавателей</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {teachers.map((teacher, idx) => (
-              <Card key={idx} className="hover:shadow-xl transition-all hover:-translate-y-1">
-                <CardHeader>
-                  <div className="bg-gradient-to-br from-primary to-secondary w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    <Icon name={teacher.icon as any} className="text-white" size={28} />
-                  </div>
-                  <CardTitle>{teacher.name}</CardTitle>
-                  <CardDescription className="text-base">{teacher.subject}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-2 text-sm">
-                    <p className="flex items-center gap-2">
-                      <Icon name="Award" size={16} className="text-muted-foreground" />
-                      Стаж: {teacher.experience}
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <Icon name="GraduationCap" size={16} className="text-muted-foreground" />
-                      {teacher.education}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <Card className="max-w-2xl mx-auto">
+            <CardContent className="p-8 text-center">
+              <div className="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Icon name="Monitor" className="text-primary" size={40} />
+              </div>
+              <h3 className="text-2xl font-bold mb-4">Школа работает в онлайн формате</h3>
+              <p className="text-muted-foreground text-lg">
+                Обучение проходит дистанционно с использованием современных образовательных платформ и материалов.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
