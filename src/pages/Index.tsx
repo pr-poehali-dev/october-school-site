@@ -172,6 +172,10 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="flex items-center gap-2">
+                  <Icon name="User" size={18} className="text-muted-foreground" />
+                  Директор: Пахомов Егор Сергеевич
+                </p>
+                <p className="flex items-center gap-2">
                   <Icon name="Globe" size={18} className="text-muted-foreground" />
                   Народная школа (без физического адреса)
                 </p>
