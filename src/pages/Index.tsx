@@ -185,7 +185,7 @@ const Index = () => {
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="Mail" size={18} className="text-muted-foreground" />
-                  school1@edu.mos.ru
+                  egorkardasin6@gmail.com
                 </p>
               </CardContent>
             </Card>
