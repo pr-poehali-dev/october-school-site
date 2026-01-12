@@ -137,7 +137,7 @@ const Index = () => {
                   <Icon name="Users" className="text-primary" size={32} />
                 </div>
                 <CardTitle>56 учеников</CardTitle>
-                <CardDescription>Обучаются в 5 классах с 1 по 11 класс</CardDescription>
+                <CardDescription>Обучение по совмещенному классу</CardDescription>
               </CardHeader>
             </Card>
 
