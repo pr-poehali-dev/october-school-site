@@ -172,8 +172,8 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="flex items-center gap-2">
-                  <Icon name="MapPin" size={18} className="text-muted-foreground" />
-                  г. Москва, ул. Октябрьская, д. 15
+                  <Icon name="Globe" size={18} className="text-muted-foreground" />
+                  Народная школа (без физического адреса)
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="Phone" size={18} className="text-muted-foreground" />
