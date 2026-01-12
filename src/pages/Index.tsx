@@ -177,7 +177,7 @@ const Index = () => {
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="Phone" size={18} className="text-muted-foreground" />
-                  +7 (495) 123-45-67
+                  +7 953 325-95-22
                 </p>
                 <p className="flex items-center gap-2">
                   <Icon name="Mail" size={18} className="text-muted-foreground" />
